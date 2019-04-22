@@ -1,0 +1,204 @@
+Deutsch	Englisch	Anzahl	TextAnzeigen	Kategorie	Unterkategorie	Bild
+Kaltverpflegung	cold meals	3	ja	Verpflegung	Essen	-
+Warmverpflegung	hot meals	3	ja	Verpflegung	Essen	-
+Brötchen	bread rolls	3	ja	Verpflegung	Essen	002-buns.png
+Obst	fruit	3	ja	Verpflegung	Essen	fruit.jpg
+Konserven	tinned food	3	ja	Verpflegung	Essen	001-can.png
+Kindernahrung	infant food	3	ja	Verpflegung	Essen	-
+Säuglingsnahrung	baby food	3	ja	Verpflegung	Essen	feeding-bottle.jpg
+Verderbliche Waren	perishable goods	3	ja	Verpflegung	Essen	-
+Lebensmittel	groceries	3	ja	Verpflegung	Essen	-
+Getränke	beverages	3	ja	Verpflegung	Getränke	003-food-and-restaurant.png
+Kaffee	coffee	3	ja	Verpflegung	Getränke	004-coffee-cup.png
+Säfte	juices	3	ja	Verpflegung	Getränke	006-juice.png
+Trinkwasser	drinking water	3	ja	Verpflegung	Getränke	glass.jpg
+Tee	tea	3	ja	Verpflegung	Getränke	005-tea.png
+Besteck	cutlery	3	ja	Verpflegung	Geschirr sauber	cutlery.jpg
+Teller	plates	3	ja	Verpflegung	Geschirr sauber	008-plate.png
+Teller flach	dinner plates	3	ja	Verpflegung	Geschirr sauber	008-plate.png
+Teller tief	soup plates	3	ja	Verpflegung	Geschirr sauber	009-plate-1.png
+Gläser	drinking glasses	3	ja	Verpflegung	Geschirr sauber	011-glass-of-water.png
+Tassen	cups	3	ja	Verpflegung	Geschirr sauber	010-cup.png
+Gebrauchtes Besteck	used cutlery	3	ja	Verpflegung	Geschirr gebraucht	
+Gebrauchte Teller	used plates	3	ja	Verpflegung	Geschirr gebraucht	
+Gebrauchte Tassen	used cups	3	ja	Verpflegung	Geschirr gebraucht	
+Gebrauchte Gläser	used drinking glasses	3	ja	Verpflegung	Geschirr gebraucht	
+vegetarisch	vegetarian	3	ja	Verpflegung	Essenskennzeichnung	vegetarisch.png
+vegan	vegan	3	ja	Verpflegung	Essenskennzeichnung	vegan.png
+Fisch	fish	3	ja	Verpflegung	Essenskennzeichnung	fish.jpg
+Geflügel	poultry	3	ja	Verpflegung	Essenskennzeichnung	chicken.jpg
+Schwein	pork	3	ja	Verpflegung	Essenskennzeichnung	pig.jpg
+Rind	beef	3	ja	Verpflegung	Essenskennzeichnung	cow.jpg
+koscher	kosher	3	ja	Verpflegung	Essenskennzeichnung	
+halal	halal	3	ja	Verpflegung	Essenskennzeichnung	
+Verpflegung	catering	3	ja	Verpflegung	Bereiche	essen.png
+Küchenbereich	kitchen area	3	ja	Verpflegung	Bereiche	012-kitchen-furniture.png
+Ausgabe	distribution point	3	ja	Verpflegung	Bereiche	
+Vorratsraum	storage room	3	ja	Verpflegung	Bereiche	lagerraum.png
+Speiseraum	dining room	3	ja	Verpflegung	Bereiche	013-table.png
+Verpflegungsstelle	catering point	3	ja	Verpflegung	Bereiche	essenausgabe_2.png
+Abfallentsorgung	waste disposal	3	ja	Verpflegung	Hygiene	-
+Müll	rubbish	3	ja	Verpflegung	Hygiene	014-delete.png
+Restmüll	non-recyclable waste 	3	ja	Verpflegung	Hygiene	-
+Verpackungsmüll	packaging waste	3	ja	Verpflegung	Hygiene	-
+Altpapier	wastepaper	3	ja	Verpflegung	Hygiene	-
+Biomüll	organic waste	3	ja	Verpflegung	Hygiene	-
+Zugang	entrance	3	ja	Verpflegung	Hygiene	-
+Abgang	leaving	3	ja	Verpflegung	Hygiene	-
+Essensmarken	meal vouchers	3	ja	Verpflegung	Sonstiges	-
+Abwasser	sewage	3	ja	Technik und Sicherheit	Abwasser	-
+Schmutzwasser	sewage	3	ja	Technik und Sicherheit	Abwasser	-
+Abwasserschlauch	sewage hose	3	ja	Technik und Sicherheit	Abwasser	-
+Schmutzwasserfass		3	ja	Technik und Sicherheit	Abwasser	-
+Schmutzwasserfässer		3	ja	Technik und Sicherheit	Abwasser	-
+Einleiten von Abwasser verboten!		3	ja	Technik und Sicherheit	Abwasser	-
+Einleitungsstelle für Abwasser		3	ja	Technik und Sicherheit	Abwasser	-
+Abwasserleitung		3	ja	Technik und Sicherheit	Abwasser	-
+Trinkwasserschlauch		3	ja	Technik und Sicherheit	Abwasser	-
+Trinkwasserleitung		3	ja	Technik und Sicherheit	Trinkwasser	-
+Trinkwasserzapfstelle		3	ja	Technik und Sicherheit	Trinkwasser	-
+Trinkwasserversorgung		3	ja	Technik und Sicherheit	Trinkwasser	-
+Trinkwasserausgabe		3	ja	Technik und Sicherheit	Trinkwasser	-
+Trinkwasser	drinking water	3	ja	Technik und Sicherheit	Trinkwasser	glass.jpg
+Kein Trinkwasser	no drinking water	3	ja	Technik und Sicherheit	Trinkwasser	no-drinking-water.png
+Brauchwasser	water	3	ja	Technik und Sicherheit	Trinkwasser	-
+Einleitungsstelle		3	ja	Technik und Sicherheit	Trinkwasser	-
+Rettungswege freihalten	Keep escape routes clear!	3	ja	Technik und Sicherheit	Verkehr	-
+Einfahrt	entrance	3	ja	Technik und Sicherheit	Verkehr	
+Parkplatz	parking spot	3	ja	Technik und Sicherheit	Verkehr	parking.png
+Parkplatz Gäste	parking spot guests	3	ja	Technik und Sicherheit	Verkehr	parking.png
+Ausfahrt	exit	3	ja	Technik und Sicherheit	Verkehr	-
+Einsatzfahrzeuge	emergency vehicles	3	ja	Technik und Sicherheit	Verkehr	016-ambulance.png
+Keine Durchfahrt für LKW > 3,5t	No passage for trucks > 3.5t	3	ja	Technik und Sicherheit	Verkehr	no-trucks.png
+Parkverbot	no-parking zone	3	ja	Technik und Sicherheit	Verkehr	no-parking.png
+Keine Durchfahrt	no transit	3	ja	Technik und Sicherheit	Verkehr	no-transit.png
+Zufahrt	driveway	3	ja	Technik und Sicherheit	Verkehr	-
+Eingang	entrance	3	ja	Technik und Sicherheit	Hinweisschilder	-
+Ausgang	exit	3	ja	Technik und Sicherheit	Hinweisschilder	-
+Kein Zutritt	no entry	3	ja	Technik und Sicherheit	Hinweisschilder	
+Gesperrt	closed	3	ja	Technik und Sicherheit	Hinweisschilder	
+Nur für Rollstuhlfahrer	wheelchair users only	3	ja	Technik und Sicherheit	Hinweisschilder	
+Raucherbereich	smoking area	3	ja	Technik und Sicherheit	Hinweisschilder	020-smoke.png
+Rauchen verboten	no smoking	3	ja	Technik und Sicherheit	Hinweisschilder	no-smoking.jpg
+Vorsicht rutschig!	Caution slippery!	3	ja	Technik und Sicherheit	Hinweisschilder	warnzeichen_rutschgefahr.png
+Vorsicht nass!	Caution wet!	3	ja	Technik und Sicherheit	Hinweisschilder	warnzeichen_rutschgefahr.png
+Vorsicht heiß!	Caution hot!	3	ja	Technik und Sicherheit	Hinweisschilder	warnzeichen_heiss.png
+Vorsicht glatt!	Caution slippery!	3	ja	Technik und Sicherheit	Hinweisschilder	warnzeichen_rutschgefahr.png
+Vorsicht!	Caution!	3	ja	Technik und Sicherheit	Hinweisschilder	warnzeichen_achtung.png
+Vorsicht Stufe!	Mind the step! 	3	ja	Technik und Sicherheit	Hinweisschilder	warnzeichen_hindernis.png
+Betreten auf eigene Gefahr	Enter at your own risk	3	ja	Technik und Sicherheit	Hinweisschilder	
+Geschlossen	closed	3	ja	Technik und Sicherheit	Hinweisschilder	
+Bei Verlassen des Raumens bitte Licht ausschalten.	When leaving the room, please switch off the light.	3	ja	Technik und Sicherheit	Hinweisschilder	
+Ab 20 Uhr kein Lärm mehr auf den Gängen	No more noise in the corridors after 8 p.m.	3	ja	Technik und Sicherheit	Hinweisschilder	
+Nur für Personal	staff only	3	ja	Technik und Sicherheit	Hinweisschilder	
+Flucht- und Rettungswege	escape and emergency routes	3	ja	Technik und Sicherheit	Brandschutzzeichen	
+Feuerlöscher	fire-extinguisher	3	ja	Technik und Sicherheit	Brandschutzzeichen	768px-ISO_7010_F001.svg.png
+Löschdecke	fire blanket	3	ja	Technik und Sicherheit	Brandschutzzeichen	
+Sammelplatz	evacuation assembly point	3	ja	Technik und Sicherheit	Rettungszeichen	ISO_7010_E007.svg.png
+Wandhydrant	fire hose reel	3	ja	Technik und Sicherheit	Brandschutzzeichen	768px-ISO_7010_F002.svg.png
+Feuerleiter	fire ladder	3	ja	Technik und Sicherheit	Brandschutzzeichen	768px-ISO_7010_F003.svg.png
+Brandmelder	fire alarm call point 	3	ja	Technik und Sicherheit	Brandschutzzeichen	768px-ISO_7010_F005.svg.png
+Brandmeldetelefon	fire emergency telephone	3	ja	Technik und Sicherheit	Brandschutzzeichen	768px-ISO_7010_F006.svg.png
+Notausgang (links)	ermergency exit (left hand) 	3	nein	Technik und Sicherheit	Rettungszeichen	768px-ISO_7010_E001_new.svg.png
+Notausgang (rechts)	ermergency exit (right hand) 	3	nein	Technik und Sicherheit	Rettungszeichen	768px-ISO_7010_E002_new.svg.png
+Zusatzzeichen Pfeil (90 Grad)	direction arrow (90° angle)	3	nein	Technik und Sicherheit	Rettungszeichen	768px-ISO_7010_Safe_condition_arrow_1.svg.png
+Zusatzzeichen Pfeil (45 Grad)	direction arrow (45° angle)	3	nein	Technik und Sicherheit	Rettungszeichen	768px-ISO_7010_Safe_condition_arrow_2.svg.png
+Arztzimmer	doctor's room	3	ja	Sanitätsdienst	Sanitätsdienst	600px-ISO_7010_E009.svg.png
+Sanitätszimmer	first aid room	3	ja	Sanitätsdienst	Sanitätsdienst	600px-ISO_7010_E003_-_First_aid_sign.svg.png
+Notfallseelsorge	emergency pastoral care	3	ja	Sanitätsdienst	Sanitätsdienst	nfs_psu.png
+Psychosoziale Notfallversorgung	emergency counselling	3	ja	Sanitätsdienst	Sanitätsdienst	nfs_psu.png
+Untersuchung	medical examination	3	ja	Sanitätsdienst	Sanitätsdienst	untersuchung.png
+Sanitätsdienst	medical service	3	ja	Sanitätsdienst	Sanitätsdienst	krankenstation.png
+Lager SAN-Material	storage for medical equipment	3	ja	Sanitätsdienst	Sanitätsdienst	-
+Rettungsdienst	emergency medical services	3	ja	Sanitätsdienst	Sanitätsdienst	
+Toiletten Frauen	toilets women	3	ja	Hygiene	Bereiche	wc_frauen.png
+Toiletten Männer	toilets men	3	ja	Hygiene	Bereiche	wc_maenner.png
+Wickelraum	baby care room	3	ja	Hygiene	Bereiche	wickelraum.png
+Waschraum Frauen	lavatory women	3	ja	Hygiene	Bereiche	waschraum_frauen.png
+Waschraum Männer	lavatory men	3	ja	Hygiene	Bereiche	waschraum_maenner.png
+Behindertengerechte Toilette	handicapped-accessible toilet	3	ja	Hygiene	Bereiche	wc_behinderte.png
+Duschen Frauen	Showers women	3	ja	Hygiene	Bereiche	dusche_frauen.png
+Duschen Männer	Showers men	3	ja	Hygiene	Bereiche	dusche_maenner.png
+Abgabe Schmutzwäsche	Disposal of dirty laundry	3	ja	Hygiene	Sonstiges	
+Sauber	clean	3	ja	Hygiene	Sonstiges	
+Unrein	dirty	3	ja	Hygiene	Sonstiges	
+Müll	rubbish	3	ja	Hygiene	Sonstiges	014-delete.png
+Restmüll	non-recyclable waste 	3	ja	Hygiene	Sonstiges	
+Verpackungsmüll	packaging waste	3	ja	Hygiene	Sonstiges	
+Altpapier	wastepaper	3	ja	Hygiene	Sonstiges	
+Biomüll	organic waste	3	ja	Hygiene	Sonstiges	
+Putzmittel	cleaning supplies	3	ja	Hygiene	Sonstiges	cleaning.png
+Desinfektionsmittel	disinfectant	3	ja	Hygiene	Sonstiges	024-medical.png
+Desinfektion	disinfection	3	ja	Hygiene	Sonstiges	
+Hygieneartikel	sanitary products	3	ja	Hygiene	Sonstiges	soap.png
+Toilettenpapier	toilet paper	3	ja	Hygiene	Sonstiges	025-toilet-paper.png
+Ausgabe	distribution point	3	ja	Betreuung	Ausgabe	
+Zubehör für Kleinkinder und Säuglinge	equipment for infants and babies	3	ja	Betreuung	Ausgabe	026-pacifier.png
+Kinderbekleidung	children's wear	3	ja	Betreuung	Ausgabe	027-bodysuit.png
+Handtücher	towels	3	ja	Betreuung	Ausgabe	028-towel.png
+Bademäntel	bathrobes	3	ja	Betreuung	Ausgabe	029-bathrobe.png
+Ausgabe Hygieneartikel	distribution of sanitary products	3	ja	Betreuung	Ausgabe	
+Decken	blankets	3	ja	Betreuung	Ausgabe	
+T-Shirts	T-Shirts	3	ja	Betreuung	Ausgabe	030-shirt.png
+Bekleidung	clothes	3	ja	Betreuung	Ausgabe	031-clothes.png
+Jogginganzüge Frauen	tracksuits women	3	ja	Betreuung	Ausgabe	
+Jogginganzüge Männer	tracksuits men	3	ja	Betreuung	Ausgabe	
+Toilettenpapier	toilet paper	3	ja	Betreuung	Ausgabe	025-toilet-paper.png
+Frauen	women	3	ja	Betreuung	Personengruppen	032-girl.png
+Männer	men	3	ja	Betreuung	Personengruppen	033-standing-up-man.png
+Unisex	unisex	3	ja	Betreuung	Personengruppen	unisex.png
+Senioren	elderly	3	ja	Betreuung	Personengruppen	034-help-the-elderly.png
+Kinder	children	3	ja	Betreuung	Personengruppen	kinder.png
+Mutter und Kind	mother and child	3	ja	Betreuung	Personengruppen	mutter_kind.png
+Vater und Kind	father and child	3	ja	Betreuung	Personengruppen	mutter_kind.png
+Christentum	christianity	3	ja	Betreuung	Personengruppen	035-cross.png
+Judentum	judaism	3	ja	Betreuung	Personengruppen	036-judaism.png
+Islam	islam	3	ja	Betreuung	Personengruppen	037-islam.png
+Hinduismus	hinduism	3	ja	Betreuung	Personengruppen	
+Buddhismus	buddhism	3	ja	Betreuung	Personengruppen	
+0		3	ja	Betreuung	Zahlen	
+1		3	ja	Betreuung	Zahlen	
+2		3	ja	Betreuung	Zahlen	
+3		3	ja	Betreuung	Zahlen	
+4		3	ja	Betreuung	Zahlen	
+5		3	ja	Betreuung	Zahlen	
+6		3	ja	Betreuung	Zahlen	
+7		3	ja	Betreuung	Zahlen	
+8		3	ja	Betreuung	Zahlen	
+9		3	ja	Betreuung	Zahlen	
+Pfeil (gerade)		3	nein	Betreuung	Pfeile	arrow-pointing-to-right.png
+Pfeil (angewinkelt)		3	nein	Betreuung	Pfeile	arrow2.png
+Aufenthaltsraum	common room	3	ja	Betreuung	Bereiche	wartezone_2.png
+Gebetsraum	prayer room	3	ja	Betreuung	Bereiche	gebetsraum.png
+Eltern-Kind-Raum	parent-and-child room	3	ja	Betreuung	Bereiche	
+Spielzimmer	Playroom	3	ja	Betreuung	Bereiche	038-kids.png
+Stillraum	nursing room	3	ja	Betreuung	Bereiche	039-breastfeeding.png
+Schlafräume Mutter und Kind	dormitories mother and child	3	ja	Betreuung	Bereiche	schlafraum_mutter_und_kind.png
+Schlafräume Vater und Kind	dormitories father and child	3	ja	Betreuung	Bereiche	schlafraum_vater_und_kind.png
+Schlafräume Männer	dormitories men	3	ja	Betreuung	Bereiche	schlafraum_maenner.png
+Schlafräume Frauen	dormitories women	3	ja	Betreuung	Bereiche	schlafraum_frauen.png
+Schlafräume Familien	dormitories families	3	ja	Betreuung	Bereiche	schlafraum_familien.png
+Schlafräume	dormitories	3	ja	Betreuung	Bereiche	schlafraum.png
+Haustiere	pets	3	ja	Betreuung	Bereiche	
+Büro	office	3	ja	Führung	Allgemeines	
+Einsatzstab		3	ja	Führung	Allgemeines	
+Information	information	3	ja	Führung	Allgemeines	information.png
+Telefon	telephone	3	ja	Führung	Allgemeines	040-telephone.png
+Bereitstellungsraum		3	ja	Führung	Allgemeines	-
+Hausordnung	house rules	3	ja	Führung	Allgemeines	
+Briefabgabestelle	post office	3	ja	Führung	Allgemeines	043-message.png
+Presse	press	3	ja	Führung	Allgemeines	041-interview.png
+Soziale Betreuung und Unterkunft	social care and accommodation	3	ja	Führung	Allgemeines	
+Anmeldung	registration	3	ja	Führung	Allgemeines	anmeldung_2.png
+Garderobe	wardrobe	3	ja	Führung	Allgemeines	042-hanger.png
+Gepäckabgabe	baggage drop	3	ja	Führung	Allgemeines	koffer.png
+Registrierung	registration	3	ja	Führung	Allgemeines	registrierung.png
+Auskunft	information desk	3	ja	Führung	Allgemeines	
+Kreisauskunftsbüro	local tracing office	3	ja	Führung	Allgemeines	-
+Betreuungsdienst	care service	3	ja	Führung	Allgemeines	
+Abgabe Schmutzwäsche Einsatzkräfte		3	ja	Führung	Allgemeines	-
+Einsatzleitung	operation controllers	3	ja	Führung	Allgemeines	leitung_rk.png
+Ruheraum für Einsatzkräfte		3	ja	Führung	Allgemeines	-
+Einsatzkräfte		3	ja	Führung	Allgemeines	
+Nur für Personal	Staff only	3	ja	Führung	Allgemeines	
+- Blanko - 		5	nein	Sonstiges	Sonstiges	-
