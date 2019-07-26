@@ -1,6 +1,3 @@
-import {TEXT} from "./main.js";
-import {logo} from "./imageData.js";
-
 "use strict";
 
 /**

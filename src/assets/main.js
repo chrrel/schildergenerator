@@ -1,12 +1,10 @@
-import "./lib.js";
-
 "use strict";
 
 /* ################
 	Config
 #################*/
 const CONFIG = {
-	version: "1.1",
+	version: "1.1.1",
 	documentTitle: "Beschilderungssatz",
 	author: "Christian",
 	keywords: "Beschilderung, Beschilderungssatz",
@@ -28,7 +26,7 @@ const CATEGORIES = {
 	verpflegung: {r: 21, g: 157, b: 21} // green 
 };
 
-export const TEXT = {
+const TEXT = {
 	page: "Seite",
 	generationStarted: "Der Schildersatz wird generiert. Dies kann einen Moment dauern.",
 	errorLargeFile: "Die PDF-Datei ist zu groß, um in der Vorschau angezeigt zu werden. Sie wird in Kürze zum Download verfügbar sein.",
