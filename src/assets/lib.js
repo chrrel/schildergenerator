@@ -1,5 +1,7 @@
 "use strict";
 
+window.jsPDF = window.jspdf.jsPDF;
+
 /**
 * Adds text (which can be formatted using options) to the PDF.
 *
@@ -123,7 +125,7 @@ jsPDF.API.addIndexTable = function(columnTitles, tableData, pageTitle, showSubca
 			// footer
 			this.setFontSize(10);
 			let pageHeight = this.internal.pageSize.height || this.internal.pageSize.getHeight();
-			this.text(TEXT.page + " " + data.pageCount, data.settings.margin.left, pageHeight - 8);
+			this.text(TEXT.page + " " + data.pageNumber, data.settings.margin.left, pageHeight - 8);
 			
 			if(circleColor != null) {
 				this.setFillColor(circleColor.r, circleColor.g, circleColor.b);
