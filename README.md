@@ -8,7 +8,7 @@ Einige Beispielschilder sind in der Datei [example.pdf](example.pdf) zu finden.
 
 ## Benutzung
 
-Das Tool ist als Webseite konzipiert und wird daher mit dem Browser (z.B. Firefox, nicht mit dem Internet Explorer) geöffnet. Dafür ist *keine* Internetverbindung notwendig.
+Das Tool ist als Webseite konzipiert und wird daher mit dem Browser geöffnet. Dafür ist *keine* Internetverbindung notwendig.
 
 1. Die Datei `index.html` auswählen (Rechtsklick → Öffnen mit → Firefox).
 2. Der Generator kann nun im Browser genutzt werden.
@@ -34,9 +34,9 @@ Der Quellcode in diesem Repository ist folgendermaßen aufgebaut:
 
 
 ### Eingebundene Bibliotheken
-* `jspdf` [GitHub](https://github.com/MrRio/jsPDF)
-* `jspdf AutoTable plugin` [GitHub](https://github.com/simonbengtsson/jsPDF-AutoTable)
-* `Papa Parse` [GitHub](https://github.com/mholt/PapaParse)
+* `jspdf` (MIT license) [GitHub](https://github.com/MrRio/jsPDF)
+* `jspdf AutoTable plugin` (MIT license) [GitHub](https://github.com/simonbengtsson/jsPDF-AutoTable)
+* `Papa Parse` (MIT license ) [GitHub](https://github.com/mholt/PapaParse)
 
 > **Hinweis:**
 > Die Libraries sind zur einfacherern Benutzung für Laien bereits im Ordner `/assets/lib/` vorhanden. Da diese stetig weiterentwickelt werden, sollten diese insbesondere für den Fall, dass der Generator serverseitig betrieben wird, durch aktuellere Versionen ersetzt werden.

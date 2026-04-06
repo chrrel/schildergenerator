@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:700|Source+Sans+Pro');
+@import url("https://fonts.googleapis.com/css?family=Merriweather:700|Source+Sans+Pro");
 
 /* Layout */
 html {
@@ -8,8 +8,8 @@ html {
 body {
 	color: rgb(0, 59, 103);
 	background: rgb(235, 246, 252);
-	padding: 0.8em 2.5em;		 
-	font-family: 'Source Sans Pro', sans-serif;
+	padding: 0.8em 2.5em;
+	font-family: "Source Sans Pro", sans-serif;
 }
 
 footer {
@@ -45,7 +45,7 @@ footer {
 /* Font */
 h1, h2 {
 	color: rgb(226, 0, 26);
-	font-family: 'Merriweather', serif;
+	font-family: "Merriweather", serif;
 }
 
 a, a:visited {

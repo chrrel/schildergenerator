@@ -1,5 +1,7 @@
 "use strict";
 
+window.jsPDF = window.jspdf.jsPDF;
+
 /**
 * Adds text (which can be formatted using options) to the PDF.
 *
@@ -35,9 +37,9 @@ jsPDF.API.addCoverPage = function(title, subtitle) {
 	
 	this.addPage("a4", "portrait");
 	this.addImage(logo, "JPEG", 72, 25, 65, 28);
-	this.myText(title, {align: "center", size: 45}, 0, 120);	
+	this.myText(title, {align: "center", size: 45}, 0, 120);
 	this.myText(subtitle, {align: "center", size: 30}, 0, 160);
-	this.myText(currentDate, {align: "center", size: 18}, 0, 250);		
+	this.myText(currentDate, {align: "center", size: 18}, 0, 250);
 }
 
 /**
@@ -70,19 +72,19 @@ jsPDF.API.addSign = function(title, subtitle, printText, image = null, printCirc
 	} else if(hasImage(image)){
 		// Title + Subtitle + Image
 		this.addImage(image.imageData, "PNG", 90, 75, 120, 120, "", "FAST");
-		this.myText(title, {align: "center", size: fontsize.title}, 0, 40);	
-		this.myText(subtitle, {align: "center", size: fontsize.subtitle}, 0, 65);		
+		this.myText(title, {align: "center", size: fontsize.title}, 0, 40);
+		this.myText(subtitle, {align: "center", size: fontsize.subtitle}, 0, 65);
 	} else if(!hasImage(image) && subtitle === "" && title.length <= 3) {
 		// Title, 1 or 2 characters only
-		this.myText(title, {align: "center", size: fontsize.title}, 0, 150);			
+		this.myText(title, {align: "center", size: fontsize.title}, 0, 150);
 	} else {
-		// Title + Subtitle 
-		this.myText(title, {align: "center", size: fontsize.title}, 0, 95);	
-		this.myText(subtitle, {align: "center", size: fontsize.subtitle}, 0, 135);		
+		// Title + Subtitle
+		this.myText(title, {align: "center", size: fontsize.title}, 0, 95);
+		this.myText(subtitle, {align: "center", size: fontsize.subtitle}, 0, 135);
 	}
 	this.addImage(logo, "JPEG", 5, 176, 65, 28);
 		
-	if(printCircle == true) {	
+	if(printCircle == true) {
 		this.setFillColor(circleColor.r, circleColor.g, circleColor.b);
 		this.circle(285, 196, 2.5, "F");
 	}
@@ -103,78 +105,53 @@ jsPDF.API.addIndexTable = function(columnTitles, tableData, pageTitle, showSubca
 	let body = [];
 	for(let row of tableData) {
 		if(showSubcategoryDivider && row[0] != previousRow[0]) {
-			body.push([{content: row[0], colSpan: columnTitles.length, styles: {valign: "middle", halign: "center", fillColor: [80, 80, 80], textColor: [255, 255, 255], fontStyle: "bold"}}]);	
+			body.push([{content: row[0], colSpan: columnTitles.length, styles: {valign: "middle", halign: "center", fillColor: [80, 80, 80], textColor: [255, 255, 255], fontStyle: "bold"}}]);
 		}
 		body.push(row);
 		previousRow = row;
 	}
 	
-	this.addPage("a4", "portrait");	
+	this.addPage("a4", "portrait");
 	this.autoTable({
-		head: [columnTitles], 
+		head: [columnTitles],
 		body: body,
 		styles: {overflow: "ellipsize"},
 		didDrawPage: (data) => {
 			// header
 			this.setFontSize(20);
 			this.setTextColor(40);
-			this.text(pageTitle, data.settings.margin.left, 22);			
+			this.text(pageTitle, data.settings.margin.left, 22);
 			this.addImage(logo, "JPEG", 158, 8, 41, 18);
 			// footer
 			this.setFontSize(10);
 			let pageHeight = this.internal.pageSize.height || this.internal.pageSize.getHeight();
-			this.text(TEXT.page + " " + data.pageCount, data.settings.margin.left, pageHeight - 8);
+			this.text(TEXT.page + " " + data.pageNumber, data.settings.margin.left, pageHeight - 8);
 			
 			if(circleColor != null) {
 				this.setFillColor(circleColor.r, circleColor.g, circleColor.b);
 				this.circle(193, pageHeight - 8, 2.5, "F");
-			}			
+			}
 		},
 		margin: {top: 30},
 	});
 };
 
-/* Determine fonsize depending on text length */
+/* Determine font size based on text length */
 let determineFontSize = (textLength) => {
-	let fontsize = {title: 75, subtitle: 50};
-	
-	if(textLength >= 45) {
-		fontsize.title = 30;
-		fontsize.subtitle = 25;
-	}	
-	else if(textLength >= 39) {
-		fontsize.title = 35;
-		fontsize.subtitle = 30;
-	}
-	else if(textLength >= 34) {
-		fontsize.title = 45;
-		fontsize.subtitle = 35;		
-	}	
-	else if(textLength >= 32) {
-		fontsize.title = 50;
-		fontsize.subtitle = 40;				
-	}	
-	else if(textLength >= 28) {
-		fontsize.title = 55;
-		fontsize.subtitle = 40;		
-	}
-	else if(textLength >= 20) {
-		fontsize.title = 60;
-		fontsize.subtitle = 40;				
-	}
-	else if(textLength >= 15) {
-		fontsize.title = 75;
-		fontsize.subtitle = 50;				
-	} 	 
-	else if(textLength >= 2) {
-		fontsize.title = 90;
-		fontsize.subtitle = 65;				
-	} else {
-		fontsize.title = 400;
-		fontsize.subtitle = 120;				
-	}
-	
-	return fontsize;
+	const rules = [
+		{minLength: 45, title: 30, subtitle: 25},
+		{minLength: 39, title: 35, subtitle: 30},
+		{minLength: 34, title: 45, subtitle: 35},
+		{minLength: 32, title: 50, subtitle: 40},
+		{minLength: 28, title: 55, subtitle: 40},
+		{minLength: 20, title: 60, subtitle: 40},
+		{minLength: 15, title: 75, subtitle: 50},
+		{minLength: 2,  title: 90, subtitle: 65},
+		{minLength: 0,  title: 400, subtitle: 120} // fallback
+	];
+
+	const rule = rules.find(r => textLength >= r.minLength);
+	return {title: rule.title, subtitle: rule.subtitle};
 };
 
 let hasImage = (image) => {
